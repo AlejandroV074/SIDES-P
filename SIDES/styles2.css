@@ -1,0 +1,98 @@
+.navbar {
+  background: #202945;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav {
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav a {
+  padding-right: 15px;
+  color: white;
+}
+
+.footer {
+  background: #202945;
+  height: 300px;
+  color: #ffffff;
+}
+
+.titles {
+  font-family: "Roboto Condensed";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.date {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+}
+
+.sides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px 50px 150px;
+  background: rgba(217, 217, 217, 0.32);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 150px
+}
+.presentacion {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 25px;
+}
+
+.objetivo {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 25px;
+}
+
+.objetivop {
+  width: 2185px;
+  height: 379px;
+  left: 30px;
+  top: 1120px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 35px;
+  line-height: 25px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.sides img {
+  width: 30%;
+  height: 50%;
+}
+#pre{
+    margin-left: 39.9%;
+}
