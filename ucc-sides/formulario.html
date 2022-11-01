@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="logo-ucc (1).png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo-ucc (1).png" width="55" height="50" class="d-inline-block align-top" alt="">
+          Universidad Cooperativa de Colombia
+        </a>
+        <ul class="nav">
+          <button class="boton" onclick="accion()">Menú</button>
+          <a href="index.html" class="enlace desaparece">Inicio</a>
+          <a href="conferencistas.html" class="enlace desaparece">Conferencistas</a>
+          <a href="Programacion.html" class="enlace desaparece">Programacion</a>
+          <a href="formulario.html" class="enlace desaparece">Formulario</a>
+        </ul>
+      </nav>
+      <script>
+        function accion() {
+          console.log("esta funcionando");
+          var ancla = document.getElementsByClassName("enlace");
+          for (var i = 0; i < ancla.length; i++) {
+            ancla[i].classList.toggle('desaparece');
+          }
+        }
+      </script>
+    <br>
+    <h1>
+        <center>Inscríbete y participa</center>
+    </h1>
+
+    <form action="guardar.php" method="POST">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <label for="">Número de documento de identidad</label>
+                    <input type="number" required name="documento" class="form-control" placeholder="Eje: 305836459">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="">Nombres</label>
+                    <input type="text" required name="nombres" class="form-control" placeholder="Eje: Maria Camila">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="">Apellidos</label>
+                    <input type="text" required name="apellidos" class="form-control" placeholder="Eje: Conde Rincon">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="">Universidad / Empresa</label>
+                    <input type="text" required name="universidad" class="form-control"
+                        placeholder="Eje: Universidad Cooperativa de Colombia">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="">Ciudad</label>
+                    <input type="text" required name="campus" class="form-control" placeholder="Eje: Medellín">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="">Correo electrónico</label>
+                    <input type="text" required name="correo" class="form-control"
+                        placeholder="Eje: user001@campusucc.edu.co">
+                    <br>
+                    <button type="submit" style="margin-left: 50%" class="btn btn-outline-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<br>
+<br>
+<footer class="footer">
+    <h3 style="padding-left: 15px;">Contacto</h3>      
+  <div class="custom"  >
+    <div class="footerr"style="display: flex; flex-wrap: wrap;">
+    <div style="flex: 1 1 auto; margin: 1em; padding: 0.5em; border: #ccc 1px solid; width: 30%;">
+      <h4>
+        <span>Claudia Restrepo</span></h4>
+  
+      <p>
+        Facultad de Ingenier&iacute;as<br />
+        Tel&eacute;fono 444 60 65 Ext 4646<br />
+        Correo de contacto: <a href="mailto:Claudia.restrepo@ucc.edu.co">claudia.restrepo@ucc.edu.co</a></p>
+    </div>
+  
+    <div style="flex: 1 1 auto; margin: 1em; padding: 0.5em; border: #ccc 1px solid; width: 30%;">
+      <h4>
+        <span>Eder Acevedo</span></h4>
+  
+      <p>
+        Facultad de Ingenier&iacute;as<br />
+        Tel&eacute;fono 444 60 65 Ext 4646<br />
+        Correo de contacto: <a href="mailto:eder.acevedom@campusucc.edu.co">eder.acevedom@campusucc.edu.co</a></p>
+    </div>
+  </div>
+</footer>
+</html>

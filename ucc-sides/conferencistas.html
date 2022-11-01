@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Conferencistas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="logo-ucc (1).png">
+
+</head>
+<body>
+<!--navbar-->
+<!-- Image and text -->
+<nav class="navbar">
+  <a class="navbar-brand" href="index.html">
+    <img src="logo-ucc (1).png" width="55" height="50" class="d-inline-block align-top" alt="">
+    Universidad Cooperativa de Colombia
+  </a>
+  <ul class="nav">
+    <button class="boton" onclick="accion()">Menú</button>
+    <a href="index.html" class="enlace desaparece">Inicio</a>
+    <a href="conferencistas.html" class="enlace desaparece">Conferencistas</a>
+    <a href="Programacion.html" class="enlace desaparece">Programacion</a>
+    <a href="formulario.html" class="enlace desaparece">Formulario</a>
+  </ul>
+</nav>
+<script>
+  function accion() {
+    console.log("esta funcionando");
+    var ancla = document.getElementsByClassName("enlace");
+    for (var i = 0; i < ancla.length; i++) {
+      ancla[i].classList.toggle('desaparece');
+    }
+  }
+</script>
+<h4><center>En construción...</center></h4>
+<br><br><br><br><br><br><br><br><br><br><br>
+<footer class="footer">
+    <h3 style="padding-left: 15px;">Contactos</h3>      
+  <div class="custom"  >
+    <div class="footerr"style="display: flex; flex-wrap: wrap;">
+    <div style="flex: 1 1 auto; margin: 1em; padding: 0.5em; border: #ccc 1px solid; width: 30%;">
+      <h4>
+        <span>Claudia Restrepo</span></h4>
+  
+      <p>
+        Facultad de Ingenier&iacute;as<br />
+        Tel&eacute;fono 444 60 65 Ext 4646<br />
+        Correo de contacto: <a href="mailto:Claudia.restrepo@ucc.edu.co">claudia.restrepo@ucc.edu.co</a></p>
+    </div>
+  
+    <div style="flex: 1 1 auto; margin: 1em; padding: 0.5em; border: #ccc 1px solid; width: 30%;">
+      <h4>
+        <span>Eder Acevedo</span></h4>
+  
+      <p>
+        Facultad de Ingenier&iacute;as<br />
+        Tel&eacute;fono 444 60 65 Ext 4646<br />
+        Correo de contacto: <a href="mailto:eder.acevedom@campusucc.edu.co">eder.acevedom@campusucc.edu.co</a></p>
+    </div>
+  </div>
+  </div>
+  </footer>
+</body>
+</html>
