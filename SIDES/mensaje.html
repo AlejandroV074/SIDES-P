@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="logo-ucc (1).png" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mensaje</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles2.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo-ucc (1).png" width="30" height="30" class="d-inline-block align-top" alt="" />
+      <p>Universidad Cooperativa de Colombia</p>
+    </a>
+    <u class="nav toogle desaparece">
+      <li><a href="index.html" class="enlace toogle desaparece">Inicio</a></li>
+      <li><a href="conferencistas.html" class="enlace toogle desaparece">Conferencistas</a></li>
+      <li><a href="Programacion.html" class="enlace toogle desaparece">Programacion</a></li>
+      <li><a href="formulario.html" class="enlace toogle desaparece">Formulario</a></li>
+    </u>
+    <button class="boton" id="icon-nav" onclick="accion()">
+      <img src="free_icon_1.svg"></img>
+    </button>
+  </nav>
+  <script>
+    function accion() {
+      console.log("esta funcionando");
+      var ancla = document.getElementsByClassName("toogle");
+      for (var i = 0; i < ancla.length; i++) {
+        ancla[i].classList.toggle('desaparece');
+      }
+    }
+  </script>
+
+  <body>
+    <h1 class="alerta_datos">
+      <p>Los Datos Se Guardaron Correctamente :)</p>
+      <a class="nuevo_envio" href="formulario.html"><button type="submit" class="btn btn-outline-primary">Enviar
+          otra respuesta</button></a>
+    </h1>
+
+
+  </body>
+  <footer class="footer">
+    <h3 style="padding-top: 10px;" class="footer-text">Contacto</h3>
+    <div class="custom">
+      <div class="footer-element">
+        <h4>
+          <span class="footer-text">Claudia Restrepo</span>
+        </h4>
+
+        <p class="footer-text">
+          Facultad de Ingenier&iacute;as<br />
+          Tel&eacute;fono 444 60 65 Ext 4646<br />
+          Correo de contacto: <a href="mailto:Claudia.restrepo@ucc.edu.co">claudia.restrepo@ucc.edu.co</a></p>
+      </div>
+
+      <div class="footer-element">
+        <h4>
+          <span class="footer-text">Eder Acevedo</span>
+        </h4>
+
+        <p class="footer-text">
+          Facultad de Ingenier&iacute;as<br />
+          Tel&eacute;fono 444 60 65 Ext 4646<br />
+          Correo de contacto: <a href="mailto:eder.acevedom@campusucc.edu.co">eder.acevedom@campusucc.edu.co</a></p>
+      </div>
+  </footer>
+
+</html>
