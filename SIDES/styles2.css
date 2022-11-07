@@ -230,6 +230,17 @@
   background: #f2f2f2f2;
 }
 
+.card-body b {
+  color: #2fb4cc;
+}
+
+.card-body b i {
+  color: #7eb826;
+}
+
+span.conf b {
+  color: #172d3b;
+}
 
 /* Responsive Design - adaptable a dispositivos moviles*/
 @media screen and (max-width: 1220px) {
