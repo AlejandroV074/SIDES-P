@@ -15,13 +15,14 @@
   ?>
 
   <body>
-    <h1 class="alerta_datos">
-      <p>Los Datos Se Guardaron Correctamente :)</p>
-      <a class="nuevo_envio" href="formulario.php">
-        <button class="btn btn-primary">Enviar
-          otra respuesta</button></a>
-    </h1>
-
+    <div class="content">
+      <h2 class="alerta_datos">
+        Los Datos Se Guardaron Correctamente :)
+      </h2>
+      <center><a class="nuevo_envio" href="formulario.php">
+        <button class="btn btn-primary">Enviar otra respuesta</button>
+      </a></center>
+    </div>
 
     <?php
       include("./footer.html");
