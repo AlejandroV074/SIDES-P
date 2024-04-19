@@ -14,8 +14,8 @@
     include("./navbar.html");
   ?>
 
-  <div class="text-center mt-4">
-    <h1 class="pre mb-0">
+  <div class="text-center content">
+    <h1 class="pre">
       Agenda
     </h1>
     <div>
