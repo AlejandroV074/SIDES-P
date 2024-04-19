@@ -16,10 +16,9 @@
         include("./navbar.html");
     ?>
     <div class="content">
-        <br>
-        <h1>
-            <center>Inscríbete y participa</center>
-        </h1>
+        <center><h1 class="pre">
+            Inscríbete y participa
+        </h1></center>
 
         <form action="guardar.php" method="POST">
             <div class="container">
