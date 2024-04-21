@@ -27,6 +27,10 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `participantes`
 --
+CREATE DATABASE IF NOT EXISTS sides;
+
+USE sides;
+
 
 CREATE TABLE `participantes` (
   `DOCUMENTO` int(30) NOT NULL,

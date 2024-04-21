@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="shortcut icon" href="logo-ucc (1).png" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>tabla</title>
-    <link rel="stylesheet" href="bootstrap.css">
+    <?php
+        include("./meta-tags.html");
+        include("./meta-links.html");
+    ?>
 </head>
 
 <body>
@@ -24,12 +23,12 @@
 
                 <tr>
 
-                    <td>DOCUMENTO</td>
-                    <td>NOMBRES</td>
-                    <td>APELLIDOS</td>
-                    <td>UNIVERSIDAD</td>
-                    <td>CAMPUS</td>
-                    <td>CORREO</td>
+                    <td class="text-light">DOCUMENTO</td>
+                    <td class="text-light">NOMBRES</td>
+                    <td class="text-light">APELLIDOS</td>
+                    <td class="text-light">UNIVERSIDAD</td>
+                    <td class="text-light">CAMPUS</td>
+                    <td class="text-light">CORREO</td>
 
                 </tr>
             </thead>
