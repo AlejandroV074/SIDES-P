@@ -140,9 +140,6 @@
 Luis Angel GuarÃ­n<br>
 Salvador Villar<br>
        </b> Semillero BERSTIC<br> 
-                
-                
-                
                 <b><i>Aplicación de la realidad virtual para el desarrollo de proyectos de Ciencia, Tecnología e Innovación.</i></b><br>            
               </div>
             </div>
@@ -174,9 +171,10 @@ Salvador Villar<br>
         </div>
       </div>
     </div>
-    <?php
-      include("./footer.html");
-    ?>
+  </div>
+  <?php
+    include("./footer.html");
+  ?>
 </body>
 
 </html>
