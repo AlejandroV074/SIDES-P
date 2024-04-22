@@ -299,6 +299,7 @@ background: #d4d4d4;
   right: 0;
   bottom: 1rem;
   transition: width 700ms ease-out;
+  z-index: 1;
 }
 
 #icon-nav {
