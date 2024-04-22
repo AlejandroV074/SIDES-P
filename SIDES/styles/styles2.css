@@ -87,7 +87,7 @@ background: #d4d4d4;
   text-decoration: none;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: calc(100% - 450px);
   max-width: 45%;
 }
