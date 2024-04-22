@@ -1,5 +1,5 @@
 <?php
-    $conexion = new mysqli("mysql.ucc.eder.co", "sides", "UCC8382@#0asws", "sides");
+    $conexion = new mysqli("localhost", "ciiisol_sides2024", "LtV!X^X;95ak", "ciiisol_sides2024");
 ?>
 
 
