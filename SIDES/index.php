@@ -24,7 +24,7 @@
           <br>Evento Presencial
         </strong>
       </h1>
-      <p class="date">Fecha: 10 de Noviembre 2022</p>
+      <p class="date">Fecha: 24 y 25 de abril de 2024</p>
     </div>
   </div>
   <div class="contenido">
@@ -63,9 +63,9 @@ SIDES presenta temas fundamentales y de total interés para las estudiantes, pro
         Facultad de Ingeniería Medellín<br>
         Programa de Ingeniería de Software <br>
         <br>
-        Fecha: Jueves, 10 de noviembre de 2022<br>
-        Lugar: Universidad Cooperativa de Colombia, Bloque 1 - piso 8<br>
-        Evento presencial
+        Fecha: Miércoles y Jueves, 24 y 25 de abril de 2024<br>
+        Lugar: Universidad Cooperativa de Colombia<br>
+        Bloque 1, Piso 8 - Aulas Múltiples 805 - 807
       </p>
     </div>
   </div>
