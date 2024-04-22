@@ -4,6 +4,7 @@
 <head>
   <title>Agenda</title>
   <?php
+    header("location: ./index.php");
     include("./meta-tags.html");
     include("./meta-links.html");
   ?>
