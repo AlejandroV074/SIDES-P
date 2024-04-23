@@ -77,7 +77,7 @@
                 10:45 a 11:30<br>
                 <b>Pedro Alberti</b><br>
                 Universidad de Magallanes <i>(Chile)</i><br>
-                <b><i>Por Definir</i></b><br>            
+                <b><i>AGRICULTURAL INTERNET OF THINGS AND DATA ANALYTICS TO MAKE BETTER DECISIONS (AGIOT)</i></b><br>            
               </div>
             </div>
           </div>
