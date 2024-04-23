@@ -48,7 +48,7 @@
                 <span class="conf"><b>CONFERENCIA</b></span><br>
                 8:30 a 9:30<br>
                 <b>Jose Castro</b><br>
-                Soluciones de Software INDTECH SAS<br>
+                Soluciones de Software INDTECH SAS <i>(Colombia)</i><br>
                 <b><i>Ciberseguridad En casa, en la U y en la Oficina</i></b><br>            
               </div>
             </div>
@@ -60,23 +60,23 @@
                 <span class="conf"><b>CONFERENCIA</b></span><br>
                 9:30 a 10:30<br>
                 <b>Sara</b><br>
-                México<br>
+                Universidad Autónoma del Estado de México <i>(México)</i><br>
                 <b><i>Por Definir</i></b><br>
               </div>
             </div>
           </div>
 
           <div class="alert mx-auto mt-2 descanso" role="alert">
-            10:30 a 11:30 RECESO  (Coffee break)
+            10:30 a 11:00 RECESO  (Coffee break)
           </div>
 
           <div class="mx-auto mt-n2" id="jueves">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
-                11:30 a 12:30 <br>
+                11:00 a 12:00 <br>
                 <b>Pedro Alberti</b><br>
-                Chile<br>
+                Universidad de Magallanes <i>(Chile)</i><br>
                 <b><i>Por Definir</i></b><br>            
               </div>
             </div>
@@ -91,7 +91,7 @@
               <span class="conf"><b>CONFERENCIA </b></span><br>
               8:30 a 9:30 <br>
               <b>Ronald Romani</b><br>
-              Perú<br>
+              Empresa Core Systems SAC <i>(Perú)</i><br>
               <b><i>Por Definir</i></b><br>            
             </div>
           </div>
@@ -102,24 +102,24 @@
                 <span class="conf"><b>CONFERENCIA</b></span><br>
                 9:30 a 10:30 <br>
                 <b>Sebastian Correa</b><br>
-                Colombia<br>
-                <b><i>Por Definir</i></b><br>            
+                Huella Virtual SAS <i>(Colombia)</i><br>
+                <b><i>Transformación Digital</i></b><br>            
               </div>
             </div>
           </div>
 
           <div class="alert mx-auto mt-2 descanso" role="alert">
-            10:30 a 11:30 RECESO  (Coffee break)
+            10:30 a 11:00 RECESO  (Coffee break)
           </div>
           
           <div class="mx-auto mt-n2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
-                11:30 a 12:30 <br>
-                <b>Por definir</b><br>
-                N/A<br>
-                <b><i>Por definir</i></b><br>            
+                11:00 a 12:00 <br>
+                <b>Johanna Arismendy Chaverra</b><br>
+                Kronux Solution S.A.S <i>(Colombia)</i><br>
+                <b><i>Prepararnos para ser atacados</i></b><br>            
               </div>
               <div class="card-header fecha-evento" style="width: 100%;"></div>
             </div>
