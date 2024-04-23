@@ -59,7 +59,7 @@
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA</b></span><br>
                 9:30 a 10:30<br>
-                <b>Sara</b><br>
+                <b>Sara Vera</b><br>
                 Universidad Autónoma del Estado de México <i>(México)</i><br>
                 <b><i>Entendiendo el funcionamiento de las redes generativas adversativas</i></b><br>
               </div>
