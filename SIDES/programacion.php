@@ -119,14 +119,14 @@
           </div>
 
           <div class="alert mx-auto mt-2 mb-0 descanso" role="alert">
-            10:00 a 10:45 RECESO  (Coffee break)
+            10:00 a 10:15 RECESO  (Coffee break)
           </div>
 
           <div class="mx-auto mt-2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA</b></span><br>
-                10:45 a 11:30 <br>
+                10:15 a 11:15 <br>
                 <b>Sebastian Correa</b><br>
                 Huella Virtual SAS <i>(Colombia)</i><br>
                 <b><i>Revolución Digital: Transformando Operaciones en la Era Moderna</i></b><br>            
@@ -138,7 +138,7 @@
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
-                11:30 a 12:15 <br>
+                11:15 a 12:15 <br>
                 <b>Diana Catalina Zuluaga</b><br>
                 Gerente de Movilidad Avanzada de Bello<i>(Colombia)</i><br>
                 <b><i>Por Definir</i></b><br>            
