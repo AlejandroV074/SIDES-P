@@ -3,6 +3,7 @@
 
 <head>
     <title>Inscripciones</title>
+    <meta name="description" content="Registrate para ser parte del evento SIDES de la facultad de ingeniería de la Universidad Cooperativa de Colombia"/>
     <?php 
         include("./meta-tags.html");
     ?>

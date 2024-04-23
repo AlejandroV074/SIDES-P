@@ -2,7 +2,8 @@
 <html lang="es">
 
 <head>
-  <title>Sides</title>
+  <title>SIDES</title>
+  <meta name="description" content="Evento organizado por estudiantes y la coordinación de Ingeniería de software de la Facultad de ingeniería de la Universidad Cooperativa de Colombia Seccional Medellín."/>
   <?php
     include("./meta-tags.html");
     include("./meta-links.html");

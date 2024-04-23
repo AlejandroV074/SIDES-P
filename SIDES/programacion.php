@@ -3,6 +3,7 @@
 
 <head>
   <title>Agenda</title>
+  <meta name="description" content="Conoce las diferentes charlas del evento SIDES, dadas por expertos internacionales los días 24 y 25 de abril del 2024 en la Universidad Cooperativa de Colombia"/>
   <?php
     include("./meta-tags.html");
     include("./meta-links.html");
