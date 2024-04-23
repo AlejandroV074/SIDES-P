@@ -140,8 +140,8 @@
                 <span class="conf"><b>CONFERENCIA </b></span><br>
                 11:30 a 12:15 <br>
                 <b>Diana Catalina Zuluaga</b><br>
-                <i>(Colombia)</i><br>
-                <b><i>Movilidad de Bello</i></b><br>            
+                Gerente de Movilidad Avanzada de Bello<i>(Colombia)</i><br>
+                <b><i>Por Definir</i></b><br>            
               </div>
             </div>
           </div>
