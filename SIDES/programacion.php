@@ -66,11 +66,11 @@
             </div>
           </div>
 
-          <div class="alert mx-auto mt-2 descanso" role="alert">
+          <div class="alert mx-auto mt-2 mb-0 descanso" role="alert">
             10:30 a 10:45 RECESO  (Coffee break)
           </div>
 
-          <div class="mx-auto mt-n2" id="jueves">
+          <div class="mx-auto mt-2" id="jueves">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
@@ -82,7 +82,7 @@
             </div>
           </div>
 
-          <div class="mx-auto mt-n2">
+          <div class="mx-auto mt-2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
@@ -118,7 +118,7 @@
             </div>
           </div>
 
-          <div class="alert mx-auto mt-2 descanso" role="alert">
+          <div class="alert mx-auto mt-2 mb-0 descanso" role="alert">
             10:00 a 10:45 RECESO  (Coffee break)
           </div>
 
@@ -134,7 +134,7 @@
             </div>
           </div>
 
-          <div class="mx-auto mt-n2">
+          <div class="mx-auto mt-2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
