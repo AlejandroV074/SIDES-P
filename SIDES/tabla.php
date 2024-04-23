@@ -40,22 +40,22 @@
           while($row=$resultado->fetch_assoc()){
 ?>
                 <tr>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['DOCUMENTO']; ?>
                     </td>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['NOMBRES']; ?>
                     </td>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['APELLIDOS']; ?>
                     </td>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['UNIVERSIDAD']; ?>
                     </td>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['CAMPUS']; ?>
                     </td>
-                    <td>
+                    <td class="text-light">
                         <?php echo $row['CORREO']; ?>
                     </td>
                 </tr>
