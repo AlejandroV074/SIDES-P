@@ -5,4 +5,4 @@ SIDES presenta temas fundamentales y de total interés para las estudiantes, pro
         competencias y retos de la Ingeniería de software; sobre una mirada al futuro y las posibles áreas de especialización como:
         bases de datos, la inteligencia artificial, seguridad informática, entre otros. También se brindarán charlas con expertos en áreas
         temáticas afines a la ingeniería de software que serán como insumo para el desarrollo personal, profesional y social de los asistentes.
-https://sides.ciiisol.com/index.html
+https://sides.ciiisol.com/
