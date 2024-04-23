@@ -34,7 +34,7 @@
               <b>Adriana Patricia Villegas Quiceno</b><br>
               Universidad Cooperativa de Colombia Medellín. Decana Facultad de Ingeniería Medellín <br>
               <b>Mauricio Morales Saldarriaga</b><br>
-              Universidad Cooperativa de Colombia Medellín. Director Sede Medellín
+              Universidad Cooperativa de Colombia Medellín. Director Sede Medellín<br>
               <b><i>Palabras de bienvenida</i></b>
               <br>
               <br>
