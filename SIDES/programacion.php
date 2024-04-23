@@ -61,23 +61,35 @@
                 9:30 a 10:30<br>
                 <b>Sara</b><br>
                 Universidad Autónoma del Estado de México <i>(México)</i><br>
-                <b><i>Por Definir</i></b><br>
+                <b><i>Entendiendo el funcionamiento de las redes generativas adversativas</i></b><br>
               </div>
             </div>
           </div>
 
           <div class="alert mx-auto mt-2 descanso" role="alert">
-            10:30 a 11:00 RECESO  (Coffee break)
+            10:30 a 10:45 RECESO  (Coffee break)
           </div>
 
           <div class="mx-auto mt-n2" id="jueves">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
-                11:00 a 12:00 <br>
+                10:45 a 11:30<br>
                 <b>Pedro Alberti</b><br>
                 Universidad de Magallanes <i>(Chile)</i><br>
                 <b><i>Por Definir</i></b><br>            
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto mt-n2">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <span class="conf"><b>CONFERENCIA </b></span><br>
+                11:30 a 12:30<br>
+                <b>Johanna Arismendy Chaverra</b><br>
+                Kronux Solution S.A.S <i>(Colombia)</i><br>
+                <b><i>Prepararnos para ser atacados</i></b><br>            
               </div>
             </div>
           </div>
@@ -89,53 +101,63 @@
 
             <div class="card-body">
               <span class="conf"><b>CONFERENCIA </b></span><br>
-              8:30 a 9:30 <br>
+              8:00 a 9:00<br>
               <b>Ronald Romani</b><br>
               Empresa Core Systems SAC <i>(Perú)</i><br>
-              <b><i>Por Definir</i></b><br>            
+              <b><i>El impacto de las telecomunicaciones en entornos de Tecnología de Información</i></b><br>            
             </div>
+          </div>
+
+          <div class="mx-auto mt-2 card" >
+            <div class="card-body">
+              <span class="conf"><b>CONFERENCIA </b></span><br>
+              9:00 a 10:00<br>
+              <b>Percy Huertas</b><br>
+              Universidad Nacional de San Agustín de Arequipa <i>(Perú)</i><br>
+              <b><i>Efecto de la trazabilidad en los requisitos de software</i></b><br>            
+            </div>
+          </div>
+
+          <div class="alert mx-auto mt-2 descanso" role="alert">
+            10:00 a 10:45 RECESO  (Coffee break)
           </div>
 
           <div class="mx-auto mt-2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA</b></span><br>
-                9:30 a 10:30 <br>
+                10:45 a 11:30 <br>
                 <b>Sebastian Correa</b><br>
                 Huella Virtual SAS <i>(Colombia)</i><br>
-                <b><i>Transformación Digital</i></b><br>            
+                <b><i>Revolución Digital: Transformando Operaciones en la Era Moderna</i></b><br>            
               </div>
             </div>
           </div>
 
-          <div class="alert mx-auto mt-2 descanso" role="alert">
-            10:30 a 11:00 RECESO  (Coffee break)
-          </div>
-          
           <div class="mx-auto mt-n2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
-                11:00 a 12:00 <br>
-                <b>Johanna Arismendy Chaverra</b><br>
-                Kronux Solution S.A.S <i>(Colombia)</i><br>
-                <b><i>Prepararnos para ser atacados</i></b><br>            
+                11:30 a 12:15 <br>
+                <b>Diana Catalina Zuluaga</b><br>
+                <i>(Colombia)</i><br>
+                <b><i>Movilidad de Bello</i></b><br>            
+              </div>
+            </div>
+          </div>
+          
+          <div class="mx-auto mt-2">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <span class="conf"><b>DESPEDIDA </b></span><br>
+                12:15 a 12:30<br>
+                <!-- <b></b><br> -->
+                Universidad Cooperativa de Colombia<br>
+                <b><i>Cierre del Evento</i></b><br>            
               </div>
               <div class="card-header fecha-evento" style="width: 100%;"></div>
             </div>
           </div>
-          
-          <!-- <div class="mx-auto mt-2">
-            <div class="card" style="width: 100%">
-              <div class="card-body">
-                17:00 a 17:15<br>
-                <b>PhD. Gina Paola Maestre</b><br>
-                Universidad Cooperativa de Colombia<br>
-                <b><i>Cierre del Evento</i></b><br>            
-              </div>
-              <div class="card-header descanso" style="width: 100%;"></div>
-            </div>
-          </div> -->
           
         </div>
       </div>
