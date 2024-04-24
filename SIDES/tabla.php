@@ -21,7 +21,7 @@
           $resultado= $conexion->query($query);
     ?>
     <i><center><?php echo count($resultado); ?></center></i>
-    <div class="container">
+    <div class="container" style="overflow-x: visible;">
         <table class="table table-striped table-dark table-hover">
             <thead class="thead-dark">
 
