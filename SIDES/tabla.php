@@ -14,7 +14,13 @@
     <h1>
         <center>LISTADO DE PARTICIPANTES</center>
     </h1>
-
+    <?php
+        
+          include("conexion.php");
+          $query="SELECT * FROM participantes";
+          $resultado= $conexion->query($query);
+    ?>
+    <i><center><?php echo count($resultado); ?></center></i>
     <div class="container">
         <table class="table table-striped table-dark table-hover">
             <thead class="thead-dark">
@@ -33,12 +39,9 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
-          include("conexion.php");
-          $query="SELECT * FROM participantes";
-          $resultado= $conexion->query($query);
+      <?php  
           while($row=$resultado->fetch_assoc()){
-?>
+      ?>
                 <tr>
                     <td class="text-light">
                         <?php echo $row['DOCUMENTO']; ?>
@@ -59,9 +62,9 @@
                         <?php echo $row['CORREO']; ?>
                     </td>
                 </tr>
-                <?php
+        <?php
           }
-          ?>
+        ?>
             </tbody>
     </div>
 </body>
