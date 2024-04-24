@@ -20,7 +20,7 @@
           $query="SELECT * FROM participantes";
           $resultado= $conexion->query($query);
     ?>
-    <i><center>Total inscritos: <?php echo count($resultado->fetch_assoc()); ?></center></i>
+    <i><center>Total inscritos: <?php echo $resultado->num_rows; ?></center></i>
     <div class="container" style="overflow-x: visible;">
         <table class="table table-striped table-dark table-hover">
             <thead class="thead-dark">
