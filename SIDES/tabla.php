@@ -9,7 +9,7 @@
     ?>
 </head>
 
-<body>
+<body style="overflow-x: visible;">
     <br>
     <h1>
         <center>LISTADO DE PARTICIPANTES</center>
@@ -21,7 +21,7 @@
           $resultado= $conexion->query($query);
     ?>
     <i><center>Total inscritos: <?php echo $resultado->num_rows; ?></center></i>
-    <div class="container" style="overflow-x: visible;">
+    <div class="container">
         <table class="table table-striped table-dark table-hover">
             <thead class="thead-dark">
 
