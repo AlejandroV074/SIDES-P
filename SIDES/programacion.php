@@ -72,7 +72,7 @@
             10:30 a 10:45 RECESO  (Coffee break)
           </div>
 
-          <div class="mx-auto mt-2" id="jueves">
+          <div class="mx-auto mt-2">
             <div class="card" style="width: 100%">
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
@@ -89,7 +89,7 @@
               <div class="card-body">
                 <span class="conf"><b>CONFERENCIA </b></span><br>
                 11:30 a 12:30<br>
-                <b>Johanna Arismendy Chaverra</b><br>
+                <b id="jueves">Johanna Arismendy Chaverra</b><br>
                 Kronux Solution S.A.S <i>(Colombia)</i><br>
                 <b><i>Prepararnos para ser atacados</i></b><br>            
               </div>
@@ -176,6 +176,14 @@
   <?php
     include("./footer.html");
   ?>
+  <script>
+    window.onload = function() {
+        var element = document.getElementById("jueves");
+        if(element) {
+            element.scrollIntoView();
+        }
+    };
+</script>
 </body>
 
 </html>
