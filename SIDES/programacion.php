@@ -143,7 +143,7 @@
                 11:15 a 12:15 <br>
                 <b>Diana Catalina Zuluaga</b><br>
                 Gerente de Movilidad Avanzada de Bello<i>(Colombia)</i><br>
-                <b><i>Por Definir</i></b><br>            
+                <b><i>¿Ingenier@ de Software?</i></b><br>            
               </div>
             </div>
           </div>
