@@ -9,7 +9,6 @@
   <meta property="og:url" content="https://sides.ciiisol.com/">
   <meta name="og:description" content="Evento organizado por estudiantes y la coordinación de Ingeniería de software de la Facultad de ingeniería de la Universidad Cooperativa de Colombia Seccional Medellín."/>
   <?php
-  <?php
     include("./meta-tags.html");
     include("./meta-links.html");
   ?>
