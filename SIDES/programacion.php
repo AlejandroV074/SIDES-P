@@ -176,14 +176,14 @@
   <?php
     include("./footer.html");
   ?>
-  <script>
+  <!-- <script>
     window.onload = function() {
         var element = document.getElementById("jueves");
         if(element) {
             element.scrollIntoView();
         }
     };
-</script>
+  </script> -->
 </body>
 
 </html>
