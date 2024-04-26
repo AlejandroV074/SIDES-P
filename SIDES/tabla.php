@@ -18,9 +18,22 @@
         
           include("conexion.php");
           $query="SELECT * FROM participantes";
+          if(isset($_GET['submit'])){
+            $query .= ' WHERE LOWER('.$_GET["column"].') LIKE LOWER("%'.$_GET["value"].'%")';
+          }
           $resultado= $conexion->query($query);
     ?>
     <i><center>Total inscritos: <?php echo $resultado->num_rows; ?></center></i>
+    <form action="tabla.php" method="GET" class="d-flex flex-row justify-content-center align-items-center mb-2" style="gap: 5px;">
+        <select name="column" class="form-control w-auto">
+            <option value="UNIVERSIDAD">Universidad</option>
+            <option value="NOMBRES">Nombres</option>
+            <option value="APELLIDOS">Apellidos</option>
+            <option value="CORREO">Correo</option>
+        </select>
+        <input type="search" class="form-control w-25" name="value" placeholder="Coincidencias a Buscar">
+        <button type="submit" name="submit" class="btn btn-primary">Buscar</button>
+    </form>
     <div class="container">
         <table class="table table-striped table-dark table-hover">
             <thead class="thead-dark">
